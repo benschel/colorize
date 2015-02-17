@@ -1,0 +1,70 @@
+/* main.css */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.content-container {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+.color-hex {
+    margin: 0;
+    font-size: 4em;
+}
+
+.light-color {
+    color: #000000;
+}
+
+.dark-color {
+    color: #ffffff;
+}
+
+.refresh-btn {
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 50px;
+    background: #f8f8f8;
+    border: 1px solid #686868;
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+    padding-top: 9px;
+    padding-left: 1px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.fa-refresh {
+    color: #515151;
+}
+
+.refresh-btn:hover .fa-refresh {
+    -webkit-animation: rotateIcon 1s infinite ease-in-out;
+}
+
+@-webkit-keyframes rotateIcon {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotateIcon {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
