@@ -5,7 +5,8 @@ $(document).ready(function() {
 
     randomColor();
 
-    $refreshBtn.on('click', function() {
+    $refreshBtn.on('click', function(e) {
+        e.preventDefault();
         randomColor();
     });
 
