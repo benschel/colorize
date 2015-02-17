@@ -48,6 +48,7 @@ html, body {
 
 .refresh-btn:hover .fa-refresh {
     -webkit-animation: rotateIcon 1s infinite ease-in-out;
+    animation: rotateIcon 1s infinite ease-in-out;
 }
 
 @-webkit-keyframes rotateIcon {
