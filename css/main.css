@@ -8,10 +8,11 @@ html, body {
 }
 
 .content-container {
+    text-align: center;
     position: relative;
     top: 50%;
     transform: translateY(-50%);
-    text-align: center;
+    -webkit-transform: translateY(-50%);
 }
 
 .color-hex {
@@ -52,9 +53,11 @@ html, body {
 @-webkit-keyframes rotateIcon {
     from {
         transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
     }
     to {
         transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
     }
 }
 
